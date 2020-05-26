@@ -25,6 +25,13 @@ And yes, this disclaimer was longer than the actual description.
 
 ![Editing a file](img/editor.png "Editing a file")
 
+## Running programs and demos
+
+Appending `?startup=<base64-string>` to the URL will override the computer's
+startup file, letting you share links to programs and demos on the web.
+For instance, [this link][mbs] will install mbs.
+Without `?startup`, the emulator starts up just like normal.
+
 ## Build it yourself
 Due to the nature of this project, Copy Cat has a rather strange build setup. We
 take sources of [Cobalt][cobalt] and [CC: Tweaked][cct], modify them to work in
@@ -53,3 +60,4 @@ You will probably need to apply and then regenerate patches after doing so.
 [cloud]: https://github.com/SquidDev-CC/cloud-catcher "The Cloud Catcher repository"
 [cobalt]: https://github.com/SquidDev/Cobalt "The Cobalt repository"
 [cct]: https://github.com/SquidDev-CC/CC-Tweaked "The CC: Tweaked repository"
+[mbs]: https://copy-cat.squiddev.cc/?startup=ZnMuZGVsZXRlKCJtYnMubHVhIikKaWYgc2hlbGwucnVuKCJ3Z2V0IGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9TcXVpZERldi1DQy9tYnMvbWFzdGVyL21icy5sdWEgbWJzLmx1YSIpIGFuZCBzaGVsbC5ydW4oIm1icyBpbnN0YWxsIikgdGhlbiBvcy5yZWJvb3QoKSBlbmQ= "MBS copy-cat URL"
